@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Federação Mineira de Tênis de Mesa
+title: Eventos
 ---
 
 <div id="home">
-  <h1>Últimas Notícias</h1>
+  <h1>Eventos</h1>
   <ul class="posts">
     {% for post in site.posts %}
+      {% if post.categories contains 'eventos' %}
       <li><span>{{ post.date | localize: ":short" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
