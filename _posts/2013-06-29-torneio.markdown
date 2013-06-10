@@ -5,9 +5,13 @@ date:   2013-06-29 21:12:00
 categories: eventos
 
 ano-temporada: 2013
+event-place: "Centro Universitário de Caratinga Ginásio Dário Grossi"
+event-address: "Avenia Moacyr de Mattos, 87 - Centro"
 event-city: "Caratinga"
-event-address: "CENTRO UNIVERSITÁRIO DE CARATINGA GINÁSIO DÁRIO GROSSI AVENIDA MOACYR DE MATTOS, 87 – CENTRO"
 event-phone: "(33) 3329-4500"
+event-checkin-time: 08:00
+event-warmup-time: 08:30
+event-start-time: 09:00
 
 title-copamg: "VI COPA MG"
 date-copamg: 2013-06-15 09:00:00
