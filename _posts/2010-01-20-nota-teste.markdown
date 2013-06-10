@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Exemplo de Evento"
+title:  "005/2013"
 date:   2013-06-07 15:12:43
-categories: eventos
+categories: notas
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
