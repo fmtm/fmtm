@@ -12,6 +12,8 @@ event-phone: "(33) 3329-4500"
 event-checkin-time: 08:00
 event-warmup-time: 08:30
 event-start-time: 09:00
+deadline: 2013-06-12 18:00:00
+iniciantes-fee: 20.00
 
 title-copamg: "VI COPA MG"
 date-copamg: 2013-06-15 09:00:00
