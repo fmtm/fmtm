@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="event title">
+  <h2>Temporada {{ page.ano-temporada }}</h2>
+
+  <h2>{{ page.title-copamg }}  
+
+    {% if page.title-cmtm != nil %}
+      - {{ page.title-cmtm }}
+    {% endif %}
+
+    / {{ page.event-city }}</h2>
+</div>
+
+<br />
+
+<div class="event-item">
+  <h3>1. Competição</h3>
+  {{ page.date-copamg: | localize: "%d/%m (%A)" }} - Iniciantes, {{ page.title-copamg }} e Absoluto.
+
+  {% if page.date-cmtm != nil %}
+    <br />
+    {{ page.date-cmtm: | localize: "%d/%m (%A)" }} - {{ page.title-cmtm }}
+  {% endif %}    
+</div>
+
+<br />
+
+<div class="event-item">
+  <h3>2. Local</h3>
+  {{page.event-address}} - {{ page.event-city }}<br />
+  {{page.event-phone}}
+</div>
+
+<br />

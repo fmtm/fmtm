@@ -1,0 +1,17 @@
+---
+layout: evento
+title:  "Exemplo de Evento"
+date:   2013-06-29 21:12:00
+categories: eventos
+
+ano-temporada: 2013
+event-city: "Caratinga"
+event-address: "CENTRO UNIVERSITÁRIO DE CARATINGA GINÁSIO DÁRIO GROSSI AVENIDA MOACYR DE MATTOS, 87 – CENTRO"
+event-phone: "(33) 3329-4500"
+
+title-copamg: "VI COPA MG"
+date-copamg: 2013-06-15 09:00:00
+
+title-cmtm: "II ETAPA CMTM INDIVIDUAL"
+date-cmtm: 2013-06-16 10:00:00
+---
