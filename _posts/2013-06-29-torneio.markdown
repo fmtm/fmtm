@@ -13,6 +13,8 @@ event-checkin-time: 08:00
 event-warmup-time: 08:30
 event-start-time: 09:00
 deadline: 2013-06-12 18:00:00
+responsible-name: "Túlio Eduardo"
+responsible-position: "Administrador"
 
 title-copamg: "VI COPA MG"
 date-copamg: 2013-06-15 09:00:00
