@@ -2,3 +2,4 @@ name: Federação Mineira de Tênis de Mesa
 pygments: true
 lsi: false
 timezone: America/Sao_Paulo
+baseurl: http://thiagokimo.github.io/fmtm
