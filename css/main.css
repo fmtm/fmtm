@@ -14,7 +14,9 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  /*font: 13.34px Helvetica, Arial, sans-serif;*/
+  font-family: SteinemRoman, Georgia, "Times New Roman", Times, serif;
+  /*text-shadow: 1px 1px #FFFFFF;*/
   font-size: small;
   text-align: center;
 }
@@ -74,8 +76,17 @@ ul.posts span {
 }
 
 .site .header h1.title {
+  font-size: 50px;
+  font-weight: normal;
+  margin: 25px auto 10px auto;
+  line-height: 55px;
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+}
+
+.site .header img {
+  border-width: 1px;
+  border-color: black;
 }
 
 .site .header h1.title a {

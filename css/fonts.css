@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'SteinemRoman';
+  src: url('STEINEM_.eot');
+  src: local('Steinem Roman'), local('Steinem'), url('STEINEM_.woff') format('woff'), url('STEINEM_.ttf') format('truetype'), url('STEINEM_.svg#Steinem') format('svg');
+}
+
+@font-face {
+  font-family: 'PTSansRegular';
+  src: url('PT_Sans.eot');
+  src: local('PT Sans Regular'), local('PTSans-Regular'), url('PT_Sans.woff') format('woff'), url('PT_Sans.ttf') format('truetype'), url('PT_Sans.svg#PTSans-Regular') format('svg');
+}
