@@ -128,6 +128,13 @@ ul.posts span {
   color: #fff
 }
 
+.site .header a.extra.current {
+  background: #cc333f;
+  color: #222;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+}
+
 .site a {
   color: #aaa;
 }
