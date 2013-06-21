@@ -13,12 +13,13 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  /*font: 13.34px Helvetica, Arial, sans-serif;*/
-  font-family: SteinemRoman, Georgia, "Times New Roman", Times, serif;
+  background-color: #303030;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*font-family: SteinemRoman, Georgia, "Times New Roman", Times, serif;*/
   /*text-shadow: 1px 1px #FFFFFF;*/
-  font-size: small;
+  font-size: 14px;
   text-align: center;
+  border-top: 5px solid #cc333f;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,27 +66,33 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 800px;
   margin: 3em auto 2em;
   line-height: 1.5em;
+}
+
+.site .header {
+  margin-bottom: 50px;
+  overflow: hidden;
+  line-height: 110px;
 }
 
 .site .header a {
   font-weight: bold;
   text-decoration: none;
+  float: left;
 }
 
-.site .header h1.title {
+.site .header .title {
   font-size: 50px;
   font-weight: normal;
-  margin: 25px auto 10px auto;
+  margin: 0;
   line-height: 55px;
   display: inline-block;
   margin-bottom: 1em;
 }
 
 .site .header img {
-  border-width: 1px;
   border-color: black;
 }
 
@@ -103,7 +110,11 @@ ul.posts span {
 }
 
 .site .header a.extra:hover {
-  color: #000;
+  color: #cc333f;
+}
+
+.site a {
+  color: #aaa;
 }
 
 .site .meta {
@@ -119,12 +130,12 @@ ul.posts span {
 }
 
 .site .footer .contact {
-  float: left;
+  text-align: center;
   margin-right: 3em;
 }
 
 .site .footer .contact a {
-  color: #8085C1;
+  color: #cc333f;
 }
 
 .site .footer .rss {
