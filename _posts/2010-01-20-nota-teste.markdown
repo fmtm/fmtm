@@ -2,7 +2,7 @@
 layout: post
 title:  "005/2013"
 date:   2013-06-07 15:12:43
-categories: notas
+notas: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -3,3 +3,14 @@ layout: default
 title: Resultados
 resultados: true
 ---
+
+<div id="home">
+  <h1>Resultados</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.categories contains 'resultados' %}
+      <li><span>{{ post.date | localize: ":long" }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
