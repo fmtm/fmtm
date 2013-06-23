@@ -1,0 +1,16 @@
+---
+layout: default
+title: Pontuação
+pontuacao: true
+---
+
+<div id="home">
+  <h1>Pontuação</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.categories contains 'pontuacao' %}
+      <li><span>{{ post.date | localize: ":long" }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

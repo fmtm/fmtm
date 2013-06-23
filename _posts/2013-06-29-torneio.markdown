@@ -3,6 +3,7 @@ layout: event
 title:  "Exemplo de Evento"
 date:   2013-06-29 21:12:00
 eventos: true
+categories: eventos
 
 ano-temporada: 2013
 event-place: "Centro Universitário de Caratinga Ginásio Dário Grossi"

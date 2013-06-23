@@ -42,9 +42,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #cc333f; }
+a:hover   { color: #fff; }
+/*a:visited { color: #a0a; }*/
 
 table {
   font-size: inherit;
@@ -161,6 +161,10 @@ ul.posts span {
   color: #aaa;
 }
 
+.site a:hover {
+  color: #cc333f;
+}
+
 .site h1 {
   font-size: 2em;
 }
@@ -173,7 +177,7 @@ ul.posts span {
   color: #aaa;
 }
 
-footer {
+body > footer {
   background: #222;
   font-size: 16px;
   padding-bottom: 5px;
@@ -182,20 +186,13 @@ footer {
   float: left;
   width: 100%;
   clear: both;
-  display: block;
-  /*position: absolute;*/
-  /*bottom: 0;*/
-}
-
-/*body > footer {
-  background: #222;
-  font-size: 16px;
-  padding-bottom: 5px;
-  color: #888;
-  margin-top: 40px;
 }
 
 body > footer a {
+  color: #aaa;
+}
+
+body > footer a:hover {
   color: #fff;
 }
 
@@ -218,46 +215,16 @@ body > footer img {
 
 body > footer a:hover img {
   opacity: 1;
-}*/
+}
 
-/*@media (max-width: 568px){
+@media (max-width: 568px){
   footer .one-third p {
     margin-bottom: 0;
   }
   footer .two-thirds p {
     margin-top: -20px;
   }
-}*/
-
-/*.grid .one-third { width: 33.3332%; }
-.grid .two-thirds { width: 66.6665%; }*/
-
-/*.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
 }
-
-.site .footer .contact {
-  text-align: center;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #cc333f;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}*/
 
 /*****************************************************************************/
 /*
