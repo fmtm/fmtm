@@ -9,7 +9,7 @@ documento: true
   <ul class="posts">
     {% for post in site.posts %}
       {% if post.categories contains 'documento' %}
-      <li><span>{{ post.date | localize: ":long" }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | localize: "%d de %B de %Y" }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
