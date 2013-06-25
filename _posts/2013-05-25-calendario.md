@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Calendário"
-date:   2013-06-24 12:00:00
+date:   2013-06-25 12:00:00
 eventos: true
 categories: eventos
 ---
