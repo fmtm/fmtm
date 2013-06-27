@@ -117,6 +117,8 @@ ul.posts span {
 
 .site .header img {
   border-color: black;
+  padding: 20px;
+  width: 500px;
 }
 
 .site .header h1.title a {
