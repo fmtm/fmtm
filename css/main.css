@@ -221,6 +221,14 @@ body > footer a:hover img {
   }
 }
 
+@media (max-width: 768px){
+  .mobile-side-scroller {
+    overflow-x: scroll;
+    margin: 0 -40px;
+    padding: 0 10px;
+  }
+}
+
 table {
   width: 100%;
   background: #555;
