@@ -1,12 +1,18 @@
 FMTM - Federação Mineira de Tênis de Mesa
 ====
 
-Table Tennis Federation of Minas Gerais' website.
+This is the source of Table Tennis Federation of Minas Gerais' website. Check out its progress [here](http://thiagokimo.github.io/fmtm/).
 
-## It was built using
+
+## It's being built with
 - Jekyll
 - HTML5
 - CSS3
+
+## TODO's
+
+- An sliding image area.
+- A search bar that updates the current content with the search results. I'll probably use AngularJS. 
 
 ## Me
 - Thiago Rocha 
