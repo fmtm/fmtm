@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ranking Veterano 2013"
-date:   2013-06-25 16:31:00
+date:   2013-06-27 16:31:00
 pontuacao: true
 categories: pontuacao
 ---

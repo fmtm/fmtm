@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ranking Adulto 2013"
-date:   2013-06-25 16:26:00
+date:   2013-06-27 16:26:00
 pontuacao: true
 categories: pontuacao
 ---
