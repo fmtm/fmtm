@@ -11,7 +11,7 @@ This is the source of Table Tennis Federation of Minas Gerais' website. Check ou
 
 ## TODO's
 
-- An sliding image area.
+- An sliding image element.
 - A search bar that updates the current content with the search results. I'll probably use AngularJS. 
 
 ## Me
