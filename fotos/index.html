@@ -1,0 +1,16 @@
+---
+layout: default
+title: Fotos
+fotos: true
+---
+
+<div id="home">
+  <h1>Fotos</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.categories contains 'fotos' %}
+      <li><span>{{ post.date | date: "%d/%m/%Y" }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
