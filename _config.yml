@@ -2,4 +2,5 @@ name: FMTM
 pygments: true
 lsi: false
 timezone: America/Sao_Paulo
-baseurl: http://thiagokimo.github.io/fmtm
+# baseurl: http://thiagokimo.github.io/fmtm
+baseurl: http://fmtm.net
