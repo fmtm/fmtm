@@ -23,5 +23,4 @@ categories: pontuacao
     <tr><td>10</td><td>GUILHERME OLIVEIRA</td><td>APARU</td><td>200</td></tr>
     <tr><td>10</td><td>MARCO FERNANDES</td><td>APARU</td><td>200</td></tr>
   </tbody>
-
 </table>
