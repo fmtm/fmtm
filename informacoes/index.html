@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Documentos
+title: Informações
 documento: true
 ---
 
 <div id="home">
-  <h1>Documentos</h1>
+  <h1>Informações</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      {% if post.categories contains 'documento' %}
+      {% if post.categories contains 'informacoes' %}
       <li><span>{{ post.date | date: "%d/%m/%Y" }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
