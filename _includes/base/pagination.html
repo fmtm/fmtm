@@ -1,0 +1,23 @@
+<div class="paginator">
+  <div>
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="{{site.baseurl}}/" class="previous pull-left">&lt; Mais Antigos</a>
+      {% else %}
+        <a href="/pagina-{{ paginator.previous_page }}" class="align-center pull-left">&lt; Mais Recentes</a>
+      {% endif %}
+    {% else %}
+      <span class="pull-left">&lt; Mais Recentes</span>
+    {% endif %}
+  </div>
+
+  <div class="align-center">
+    <span>Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+      <a href="/pagina-{{ paginator.next_page }}" class="align-center pull-right">Mais Antigos &gt;</a>
+    {% else %}
+      <span class="align-center pull-right">Mais Antigos &gt;</span>
+    {% endif %}
+  </div>
+</div>

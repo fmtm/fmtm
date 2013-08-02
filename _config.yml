@@ -2,5 +2,6 @@ name: FMTM
 pygments: true
 lsi: false
 timezone: America/Sao_Paulo
-# baseurl: http://thiagokimo.github.io/fmtm
 baseurl: http://fmtm.net
+paginate: 10
+paginate_path: 'pagina-:num'
