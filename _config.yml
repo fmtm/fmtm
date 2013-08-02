@@ -3,5 +3,3 @@ pygments: true
 lsi: false
 timezone: America/Sao_Paulo
 baseurl: http://fmtm.net
-paginate: 10
-paginate_path: 'pagina-:num'
