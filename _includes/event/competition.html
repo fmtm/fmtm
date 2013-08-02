@@ -1,9 +1,9 @@
 <div class="event-item">
   <h3>1. Competição</h3>
-  {{ page.date-copamg: | date: "%d de %m de %Y" }} - Iniciantes, {{ page.title-copamg }} e Absoluto.
+  {{ page.date-copamg: | date: "%d/%m/%Y" }} - Iniciantes, {{ page.title-copamg }} e Absoluto.
 
   {% if page.date-cmtm != nil %}
     <br />
-    {{ page.date-cmtm: | date: "%d de %m de %Y" }} - {{ page.title-cmtm }}
+    {{ page.date-cmtm: | date: "%d/%m/%Y" }} - {{ page.title-cmtm }}
   {% endif %}    
 </div>
