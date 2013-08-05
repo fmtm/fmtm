@@ -2,6 +2,7 @@
 layout: oficial-note
 title:  "Nota Oficial Exemplo"
 date:   2013-08-05 12:49:00
+note-time: "12:49"
 number: "02/008"
 institucional: true
 categories: institucional
