@@ -4,6 +4,7 @@ title:  "IX Copa MG E III Etapa CMTM de Duplas"
 date:   2013-08-02 16:26:00
 eventos: true
 categories: eventos
+duplas: true
 
 ano-temporada: 2013
 event-place: "Ginásio Poliesportivo do Riacho"
