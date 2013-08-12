@@ -3,11 +3,13 @@
   A FMTM estará disponibilizando arbitragem para atuar no evento
 
   <h3>11. <b>Atenção:</b></h3>
-  NÃO SERÁ PERMITIDA A UTILIZAÇÃO DE QUAISQUER SUBSTÂNCIAS (REFRIGERANTES, BREU E ETC.) PARA AUMENTAR A ADERÊNCIA DO ATLETA NO PISO. SOMENTE SERÁ PERMITIDA A UTILIZAÇÃO DE PANO ÚMIDO COM ÁGUA. O ATLETA QUE DESRESPEITAR ESTA NORMA SERÁ DESCLASSIFICADO DO EVENTO. 
+  NÃO SERÁ PERMITIDA A UTILIZAÇÃO DE QUAISQUER SUBSTÂNCIAS (REFRIGERANTES, BREU E ETC.) PARA AUMENTAR A ADERÊNCIA DO ATLETA NO PISO. SOMENTE SERÁ PERMITIDA A UTILIZAÇÃO DE PANO ÚMIDO COM ÁGUA. O ATLETA QUE DESRESPEITAR ESTA NORMA SERÁ DESCLASSIFICADO DO EVENTO.
 
   <h3>12. </h3>
   Evento válido para o Rating e Ranking oficiais da Temporada 2013
 
-  <h3>13. </h3>
-  As inscrições para a {{page.title-cmtm}} deverão ser efetuadas até as 18:00 horas do dia {{page.deadline | date: "%d/%m/%Y"}}. Poderão ser inscritos até 02 atletas por Dupla. A inscrição na {{page.title-copamg}} não dá direito à participação automática na {{page.title-cmtm}}. O pagamento da inscrição para a {{page.title-cmtm}} poderá ser efetuado até o dia {{page.date-cmtm | date: "%d/%m/%Y"}} antes do início dos jogos. Inscrições para a {{page.title-cmtm}}: Atleta filiado: R$ 15,00 e Vinculado: R$ 20,00 (por atleta). Serão ofertadas medalhas para as 1º, 2º e 3º Duplas melhores classificadas.
+  {% if page.duplas %}
+    <h3>13. </h3>
+    As inscrições para a {{page.title-cmtm}} deverão ser efetuadas até as 18:00 horas do dia {{page.deadline | date: "%d/%m/%Y"}}. Poderão ser inscritos até 02 atletas por Dupla. A inscrição na {{page.title-copamg}} não dá direito à participação automática na {{page.title-cmtm}}. O pagamento da inscrição para a {{page.title-cmtm}} poderá ser efetuado até o dia {{page.date-cmtm | date: "%d/%m/%Y"}} antes do início dos jogos. Inscrições para a {{page.title-cmtm}}: Atleta filiado: R$ 15,00 e Vinculado: R$ 20,00 (por atleta). Serão ofertadas medalhas para as 1º, 2º e 3º Duplas melhores classificadas.
+  {% endif %}
 </div>
