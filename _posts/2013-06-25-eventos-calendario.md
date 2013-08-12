@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Calendário"
-date:   2013-06-25 12:00:00
+date:   2013-08-12 13:58:00
 eventos: true
 categories: eventos
 ---
@@ -28,16 +28,22 @@ Os locais e datas poderão ser alterados, à critério da FMTM, em virtude da di
 | 28            | Julho             | 2º CMTM de Individual             | Conselheiro Lafaiete
 | 17            | Agosto            | 9ª Copa MG                        | Contagem
 | 28            | Agosto            | 3º CMTM de Duplas                 | Contagem
-| 14            | Setembro          | 10ª Copa MG                       | Contagem
+| 7             | Setembro          | 10ª Copa MG                       | Belo Horizonte
+| 14            | Setembro          | 11ª Copa MG                       | Contagem
 | 15            | Setembro          | 3º CMTM de Equipes                | Contagem
-| 28            | Setembro          | 11ª Copa MG                       | Uberlândia
+| 28            | Setembro          | 12ª Copa MG                       | Uberlândia
 | 29            | Setembro          | 3º CMTM de Individual             | Uberlândia
-| 12            | Outubro           | 12ª Copa MG                       | Contagem
+| 12            | Outubro           | 13ª Copa MG                       | Contagem
 | 13            | Outubro           | Final CMTM de Duplas              | Contagem
-| 9             | Novembro          | 13ª Copa MG                       | Contagem
+| 9             | Novembro          | 14ª Copa MG                       | Contagem
 | 10            | Novembro          | Final CMTM de Equipes             | Contagem
-| 23            | Novembro          | 14ª Copa MG                       | Conselheiro Lafaiete
+| 23            | Novembro          | 15ª Copa MG                       | Conselheiro Lafaiete
 | 24            | Novembro          | Final CMTM de Individual          | Conselheiro Lafaiete
-| 14            | Dezembro          | 15ª Copa MG                       | Contagem
+| 14            | Dezembro          | 16ª Copa MG                       | Contagem
 | 15            | Dezembro          | VI Copa Contagem                  | Contagem
 | 21            | Dezembro          | Premiação de 2013                 | Contagem
+
+
+
+
+
